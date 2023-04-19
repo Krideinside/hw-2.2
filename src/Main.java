@@ -13,8 +13,7 @@ public class Main {
         int balance = 200;
         int deposite = 1300;
         int bonus;
-        if (deposite > 1000)
-        {
+        if (deposite > 1000) {
             bonus = deposite / 100;
         } else {
             bonus = 0;
@@ -24,5 +23,5 @@ public class Main {
         System.out.println("Сумма пополнения=" + deposite);
         System.out.println("Бонус=" + bonus);
         System.out.println("Новый баланс=" + newBalance);
-        }
     }
+}
